@@ -16,9 +16,7 @@ const getDocuments = async (collectionName) => {
   // Initialize Firebase
   const firestore = getFirestore();
   const data = await getDocs(collection(firestore, collectionName));
-  data.docChanges((e) => {
-    console.log(e);
-  });
+  data.docChanges;
 };
 
 export default getDocuments;
