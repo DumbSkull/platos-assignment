@@ -1,70 +1,39 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Platos Assignment
 
-## Available Scripts
+Name: Beeta Samad
+Email: beetasamad21@yahoo.com (or) beetasamad21@gmail.com
+Phone Number: +91 7303077410
 
-In the project directory, you can run:
+#### Deployed Link of the Assignment: https://platos-test-36f87.web.app/
 
-### `npm start`
+## About the Tech-Stack
+The entire project has been made using React.js for the front-end, and firestore for the database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `ReactJS:`
+The frontend was made using ReactJS and also MUI for the custom-built/pre-made components for easy UI creation. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Firestore:`
+The collection in the Firestore Database have the following collections with the following document-structures:
 
-### `npm test`
+Collection #1: `movies`
+Document-Structure: 
+- movie_name (string)
+- year (string)
+- genre (array)
+- rating (string)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(Although rating and year should've been integers(or numbers) as their data-type, I kept every property's data-type as string for simplicity as I assumed that this assignment was testing on the basic knowledge and understanding of the working behind each system.
+                      
+Collection #2: `video_games`
+Document-Structure: 
+- game_name (string)
+- year (string)
+- developer (string)
 
-### `npm run build`
+## Advantages and Disadvantages of NodeJS in the Company
+In my opinion the only main downside about NodeJS is the huge development time using it for any kind of project. Everything needs to be coded from scratch and each and every system might need its own framework/module/server to back it up. Most of the times we use third-party modules to help complete our tasks, which can sometimes be a hassle and dangerous choice as there can be version-mismatches, deprecation issues, security issues etc. that comes alone making use of third-party packages.
+The upside to using a NodeJS is that we're free to implement any logic or any system at our will and are not bounded by any restrictions. We can integrate almost any kind of database (SQL or NoSQL), implement any complex backend logic, integrate SMS-sending features etc. using NodeJS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+When it comes to the Platos Admin and Caterer web apps, firebase should be able to take care of all the basic features as there might not be a need of complex systems required (atleast as of yet). If all the basic components of firebase are able to satisfy the requirements as of now, then firebase is the best option to go along as it eases up the development by a huge fold.
+Even if later in the future advanced systems are required, there is no need to worry as we can have other systems  (like NodeJS) coupled along with firebase for the apps.
