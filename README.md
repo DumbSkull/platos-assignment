@@ -2,7 +2,9 @@
 # Platos Assignment
 
 Name: Beeta Samad
+
 Email: beetasamad21@yahoo.com (or) beetasamad21@gmail.com
+
 Phone Number: +91 7303077410
 
 #### Deployed Link of the Assignment: https://platos-test-36f87.web.app/
