@@ -2,8 +2,8 @@ import "./App.css";
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import VideoGames from "./pages/VideoGames";
-import Movies from "./pages/Movies";
+import VideoGames from "./pages/VideoGames/VideoGames";
+import Movies from "./pages/Movies/Movies";
 import { Container, Typography } from "@mui/material";
 import Home from "./pages/Home";
 
